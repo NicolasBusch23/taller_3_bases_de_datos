@@ -1,0 +1,1 @@
+#git init: Le digo a la máquina: Voy a trabajar con git y empezaré a hacer commits :)

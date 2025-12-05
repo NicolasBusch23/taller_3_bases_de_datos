@@ -1,0 +1,16 @@
+'''
+- Entorno Virtual: Mini computadores dentro de mi computador, el cual, tendrá todas las dependencias o librerías instaladas
+Permite portabilidad y reproducibilidad
+
+Para crear un entorno virtual: python -m venv [nombre_entorno]
+Para activar el entorno virtual: [nombre_entorno]\Scripts\activate
+--- Observar cambio de presentación en Terminal
+Para desactivar del entorno virtual: > deactivate
+
+- Comandos de interés:
+> pip list: Lista las librerias instaladas
+> pip freeze > requirements.txt: Copia al archivo .txt las librerías que tengo instaladas en mi entorno virtual
+
+
+- Faker: Genera datos de prueba. Crea nombres, correos, direcciones y fechas para pruebas de BD
+'''
