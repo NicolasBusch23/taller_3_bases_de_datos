@@ -1,4 +1,3 @@
-'''
 - Entorno Virtual: Mini computadores dentro de mi computador, el cual, tendrá todas las dependencias o librerías instaladas
 Permite portabilidad y reproducibilidad
 
@@ -10,7 +9,16 @@ Para desactivar del entorno virtual: > deactivate
 - Comandos de interés:
 > pip list: Lista las librerias instaladas
 > pip freeze > requirements.txt: Copia al archivo .txt las librerías que tengo instaladas en mi entorno virtual
+> pip install -r requirements.txt: Porfavor instale de manera recursiva las librerias que aparecen en requirements
 
+> git init: Le digo a la máquina: Voy a trabajar con git y empezaré a hacer commits
+> git add . : Hagame seguimiento de todos mis archivos
+> got status: Identificar el estado en el que se encuentran loa archivos:
+U: Untracked
+M: Modified
+A: Añadidos al Staged
+> git commit
 
-- Faker: Genera datos de prueba. Crea nombres, correos, direcciones y fechas para pruebas de BD
-'''
+> git log --oneline: Para ver los commits que he hecho
+
+Nos interesa crear un entorno virtual que tiene unso reuiqrements que me permite hacer una conexion 
